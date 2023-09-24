@@ -1,0 +1,1 @@
+console.log("Hello"); //just created to try to run in terminal the console log--norelation with simon game
