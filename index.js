@@ -25,24 +25,7 @@ function start() {
        checkUserInput(userArray.length-1);
     });
 
-// function checkUserInput(currentLevel){
-//   if(userArray[currentLevel]==compArray[currentLevel]){
-//       if(userArray.length === compArray.length){
-//         setTimeout(() => {
-//             colorFade();
-//             $
-//         }, 1000);
-//       }
-//   }else{
-//     $("body").addClass("game-over");
-//     var aud1 = new Audio("./sounds/wrong.mp3");
-//     $("#level-title").text("Game Over! Press A Key to Restart");
-//     aud1.play();
-//     setTimeout(() => {
-//         $("body").removeClass("game-over");
-//     }, 300);
-//   }
-// }
+
 
 function colorFade() {
     level++;
